@@ -33,7 +33,7 @@ export default function About() {
         {/* Right Side - Profile Photo */}
         <div className="about-photo">
           <img
-            src="public/WhatsApp Image 2025-08-01 at 19.02.45.jpeg"
+            src="/WhatsApp Image 2025-08-01 at 19.02.45.jpeg"
             alt="Nikhil Kaushik"
           />
         </div>
