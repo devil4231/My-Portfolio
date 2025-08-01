@@ -8,7 +8,7 @@ export default function About() {
         <div className="about-text">
           <h1>ABOUT ME</h1>
           <h1>
-            Hi, I’m <span className="accent">Nikhil Kaushik</span>
+            Hi, I’m <span className="accent">NIKHIL KAUSHIK</span>
           </h1>
           <h3>Frontend Developer | MERN Enthusiast | Problem Solver</h3>
           <p>
