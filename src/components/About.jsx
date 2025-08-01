@@ -33,7 +33,7 @@ export default function About() {
         {/* Right Side - Profile Photo */}
         <div className="about-photo">
           <img
-            src="https://drive.google.com/file/d/1xL9-LRbxYpK9X8dZpml4GLaMTRiXcs1n/view?usp=sharing"
+            src="public/WhatsApp Image 2025-08-01 at 19.02.45.jpeg"
             alt="Nikhil Kaushik"
           />
         </div>
