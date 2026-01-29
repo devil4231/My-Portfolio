@@ -1,43 +1,42 @@
-import React from 'react';
+const skillsData = [
+  {
+    title: "Programming Languages",
+    items: ["C++", "Python"]
+  },
+  {
+    title: "Front-End",
+    items: ["ReactJS", "JavaScript", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    title: "Backend",
+    items: ["NodeJS", "ExpressJS"]
+  },
+  {
+    title: "Tools",
+    items: ["Git/GitHub", "Postman", "JIRA", "VS Code"]
+  },
+  {
+    title: "Additional Skills",
+    items: ["Testing", "DSA", "Problem Solving", "Critical Thinking"]
+  }
+];
+
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="skills-content">
-        <h1>SKILLS</h1>
-        <div className="btn-skills">
-          <div className="languages">
-            <p>Programming Languages I know?</p>
-            <span>C++</span>
-            <span>PYTHON</span>
+    <section id="skills" className="skills">
+      <h1 className="skills-title">Skills</h1>
+
+      <div className="skills-grid">
+        {skillsData.map((skill, index) => (
+          <div className="skill-card" key={index}>
+            <p className="skill-heading">{skill.title}</p>
+            <div className="skill-items">
+              {skill.items.map((item, i) => (
+                <span key={i}>{item}</span>
+              ))}
+            </div>
           </div>
-          <div className="front-end">
-            <p>My Front end skills?</p>
-            <span>ReactJS</span>
-            <span>JavaScript</span>
-            <span>CSS</span>
-            <span>HTML</span>
-            <span>Bootstrap</span>
-          </div>
-          <div className="backend">
-            <p>I know a Little about Backend also!</p>
-            <span>NodeJS</span>
-            <span>Express.JS</span>
-          </div>
-          <div className="tools">
-            <p>Ahh! The tools I used and Know!</p>
-            <span>POSTMAN</span>
-            <span>JIRA</span>
-            <span>VS Code</span>
-            <span>Git/Github</span>
-          </div>
-          <div className="additionals">
-            <p>I have few additional but important skills!</p>
-            <span>Testing</span>
-            <span>DSA</span>
-            <span>Problem Solving</span>
-            <span>Critical Thinking</span>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

@@ -12,9 +12,9 @@ export default function App() {
     <div className = "container">
       <Navbar />
       <About />
+      <Experience />
       <Skills />
       <Projects />
-      <Experience />
       <Contact />
     </div>
   );
