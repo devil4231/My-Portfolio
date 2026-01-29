@@ -5,8 +5,63 @@ export default function Projects() {
     <section id="projects">
       <div className="projects-content">
         <h1>PROJECTS</h1>
+        <div className="prypco">
+          <h2 className="accent">PRYPCO BLOCKS</h2>
+          <h3>Jan 2026 - Present</h3>
+          <p>
+            Prypco is a technology-driven company focused on building modern digital solutions with an emphasis on scalability, performance, and user experience. The organization works on developing and maintaining software products that leverage contemporary technologies, agile practices, and data-driven decision-making to solve real-world business problems.
+
+            Prypco promotes a collaborative engineering culture where product, development, and quality teams work closely to deliver reliable and high-quality software solutions.
+          </p>
+
+          <h4>Features</h4>
+          <ul>
+            <li>
+              Perfomred Manual Testing of Complex Modules
+            </li>
+            <li>Perfomred Regression testing for Major Chanegs</li>
+            <li>Wrote end to end test cases and maintain test sheets for the features</li>
+            <li>Focussed on Bug free build delivery</li>
+          </ul>
+
+          <h4>Tech Stack Used</h4>
+          <ul>
+            <li>JIRA</li>
+            <li>Test Case Management</li>
+            <li>Playwright</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+        <div className="foxmatrix">
+          <h2 className="accent">FOXMATRIX - AI Interviewer</h2>
+          <h3>Sep 2025-Dec 2025</h3>
+          <p>
+            Foxmatrix is an AI based Interviewer where Candidate is conducted an AI based Interview
+            based on their experience and Skills. AI asks relevant questions according to the skills and
+            experience of the candidate. Then the Candidate is evaluated based on their responses by AI and
+            AI gives a score out of 10 based on the knowledge of the candidate.
+          </p>
+
+          <h4>Features</h4>
+          <ul>
+            <li>
+              AI ask question according to the candidate profile
+            </li>
+            <li>Candidate evaluation is done by the AI</li>
+            <li>Human based Interviews can also be conducted</li>
+            <li>Utilises the functionality of websockets to ensure real time Conversations</li>
+          </ul>
+
+          <h4>Tech Stack Used</h4>
+          <ul>
+            <li>JIRA</li>
+            <li>Zephyr</li>
+            <li>Locust(Load Testing)</li>
+            <li>Selenium (Automation) </li>
+          </ul>
+        </div>
         <div className="portfolio">
-          <h3 className="accent">My Portfolio Website</h3>
+          <h2 className="accent">My Portfolio Website</h2>
           <p>
             A modern, responsive portfolio built using ReactJS that showcases my
             skills, experience, and projects. This website is designed with a
@@ -27,7 +82,7 @@ export default function Projects() {
           </ul>
         </div>
         <div className="GoFood">
-          <h3 className="accent">GoFood – MERN Stack Food Ordering App</h3>
+          <h2 className="accent">GoFood – MERN Stack Food Ordering App</h2>
           <p>
             GoFood is a full-stack food ordering application built using the
             MERN stack. It allows users to browse a dynamic menu, add items to
@@ -59,34 +114,6 @@ export default function Projects() {
           >
             Demo Video
           </a>
-        </div>
-        <div className="IQ-test">
-          <h3 className="accent">IQ Test – Web-Based Quiz Application</h3>
-          <p>
-            The IQ Test website is a simple yet effective quiz application built
-            using core web technologies – HTML, CSS, and JavaScript. It allows
-            users to attempt a series of questions categorized by difficulty
-            (easy, medium, hard) and calculates an IQ score based on their
-            performance. This project demonstrates a strong understanding of DOM
-            manipulation, event handling, and dynamic content rendering.
-          </p>
-
-          <h4>Features</h4>
-          <ul>
-            <li>
-              Interactive quiz with easy, medium, and hard question levels
-            </li>
-            <li>Dynamic score calculation and result display</li>
-            <li>Clean UI with responsive design</li>
-            <li>Built without frameworks – purely HTML, CSS, and JavaScript</li>
-          </ul>
-
-          <h4>Tech Stack Used</h4>
-          <ul>
-            <li>HTML5 – Structure</li>
-            <li>CSS3 – Styling & Layout</li>
-            <li>JavaScript (ES6) – Logic & Interactivity</li>
-          </ul>
         </div>
       </div>
     </section>
